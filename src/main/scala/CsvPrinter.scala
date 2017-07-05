@@ -6,5 +6,6 @@ object CsvPrinter {
    val reader = CSVReader.open( new File("src/main/scala/sample.csv"))
    val printed = reader.all()
     print( printed )
+    reader.close()
   }
 }
