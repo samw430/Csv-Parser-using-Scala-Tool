@@ -1,0 +1,3 @@
+sbsbt run
+sbt compile
+exit
